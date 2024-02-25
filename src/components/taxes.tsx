@@ -11,6 +11,18 @@ const Taxes = () => {
               <img className='taxes__blinkbottom' src={miniblink} alt="miniblink" />
               <div className="taxes__text">
                 <div className="taxes__title">
+                  0.5%
+                </div>
+                <div className="taxes__subtitle">
+                  fee for bets in $LGP
+                </div>
+              </div>
+            </div>
+            <div className="taxes__item">
+              <img className='taxes__blinktop' src={miniblink} alt="miniblink" />
+              <img className='taxes__blinkbottom' src={miniblink} alt="miniblink" />
+              <div className="taxes__text">
+                <div className="taxes__title">
                   4%
                 </div>
                 <div className="taxes__subtitle">
@@ -27,18 +39,6 @@ const Taxes = () => {
                 </div>
                 <div className="taxes__subtitle">
                   sell
-                </div>
-              </div>
-            </div>
-            <div className="taxes__item">
-              <img className='taxes__blinktop' src={miniblink} alt="miniblink" />
-              <img className='taxes__blinkbottom' src={miniblink} alt="miniblink" />
-              <div className="taxes__text">
-                <div className="taxes__title">
-                  0.5%
-                </div>
-                <div className="taxes__subtitle">
-                  fee for bets in $LGP
                 </div>
               </div>
             </div>

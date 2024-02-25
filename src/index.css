@@ -172,125 +172,95 @@ template {
 
 
 
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-Light.eot');
-  src: local('Industry Light'), local('Industry-Light'),
-      url('fonts/Industry-Light.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-Light.woff') format('woff'),
-      url('fonts/Industry-Light.ttf') format('truetype');
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProLight/GothamProLight.eot");
+  src: url("fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProLight/GothamProLight.woff") format("woff"),
+  url("fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
   font-weight: 300;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProRegular/GothamProRegular.eot");
+  src: url("fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+  url("fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
   font-style: normal;
+  font-weight: 400;
 }
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-Bold.eot');
-  src: local('Industry Bold'), local('Industry-Bold'),
-      url('fonts/Industry-Bold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-Bold.woff') format('woff'),
-      url('fonts/Industry-Bold.ttf') format('truetype');
-  font-weight: bold;
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProMedium/GothamProMedium.eot");
+  src: url("fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+  url("fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
   font-style: normal;
-}
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-BoldItalic.eot');
-  src: local('Industry Bold Italic'), local('Industry-BoldItalic'),
-      url('fonts/Industry-BoldItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-BoldItalic.woff') format('woff'),
-      url('fonts/Industry-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-LightItalic.eot');
-  src: local('Industry Light Italic'), local('Industry-LightItalic'),
-      url('fonts/Industry-LightItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-LightItalic.woff') format('woff'),
-      url('fonts/Industry-LightItalic.ttf') format('truetype');
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Industry-Book';
-  src: url('fonts/Industry-Book.eot');
-  src: local('Industry Book'), local('Industry-Book'),
-      url('fonts/Industry-Book.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-Book.woff') format('woff'),
-      url('fonts/Industry-Book.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-BlackItalic.eot');
-  src: local('Industry Black Italic'), local('Industry-BlackItalic'),
-      url('fonts/Industry-BlackItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-BlackItalic.woff') format('woff'),
-      url('fonts/Industry-BlackItalic.ttf') format('truetype');
-  font-weight: 900;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Industry-BookItalic';
-  src: url('fonts/Industry-BookItalic.eot');
-  src: local('Industry Book Italic'), local('Industry-BookItalic'),
-      url('fonts/Industry-BookItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-BookItalic.woff') format('woff'),
-      url('fonts/Industry-BookItalic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Industry-DemiItalic';
-  src: url('fonts/Industry-DemiItalic.eot');
-  src: local('Industry Demi Italic'), local('Industry-DemiItalic'),
-      url('fonts/Industry-DemiItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-DemiItalic.woff') format('woff'),
-      url('fonts/Industry-DemiItalic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-Black.eot');
-  src: local('Industry Black'), local('Industry-Black'),
-      url('fonts/Industry-Black.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-Black.woff') format('woff'),
-      url('fonts/Industry-Black.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-Medium.eot');
-  src: local('Industry Medium'), local('Industry-Medium'),
-      url('fonts/Industry-Medium.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-Medium.woff') format('woff'),
-      url('fonts/Industry-Medium.ttf') format('truetype');
   font-weight: 500;
-  font-style: normal;
 }
-@font-face {
-  font-family: 'Industry';
-  src: url('fonts/Industry-MediumItalic.eot');
-  src: local('Industry Medium Italic'), local('Industry-MediumItalic'),
-      url('fonts/Industry-MediumItalic.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-MediumItalic.woff') format('woff'),
-      url('fonts/Industry-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProBold/GothamProBold.eot");
+  src: url("fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProBold/GothamProBold.woff") format("woff"),
+  url("fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProBlack/GothamProBlack.eot");
+  src: url("fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+  url("fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProLightItalic/GothamProLightItalic.eot");
+  src: url("fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+  url("fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
   font-style: italic;
-}
-@font-face {
-  font-family: 'Industry-Demi';
-  src: url('fonts/Industry-Demi.eot');
-  src: local('Industry Demi'), local('Industry-Demi'),
-      url('fonts/Industry-Demi.eot?#iefix') format('embedded-opentype'),
-      url('fonts/Industry-Demi.woff') format('woff'),
-      url('fonts/Industry-Demi.ttf') format('truetype');
   font-weight: normal;
-  font-style: normal;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProItalic/GothamProItalic.eot");
+  src: url("fonts/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+  url("fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+  src: url("fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+  url("fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+  src: url("fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+  url("fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+@font-face { 
+  font-family: "GothamPro";
+  src: url("fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+  src: url("fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
+  url("fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+  url("fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 900;
 }
 
 
@@ -305,14 +275,15 @@ template {
   box-sizing: border-box;
 }
 body {
-  background: #000;
-  font-family: Industry;
+  background: #0D0A13;
+  font-family: "GothamPro";
 }
 .header-wrapper {
   position: fixed;
   width: 100%;
   height: 102px;
-  background-color:#000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+  background: #0D0A13;
   left:50%;
   transform:translateX(-50%); 
   display: flex;
@@ -339,15 +310,17 @@ body {
   margin-right: 96px;
 }
 .header__tab {
-  color: rgba(255, 255, 255, 0.40);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-transform: uppercase;
   display: flex;
   align-items: center;
   transition: 0.5s;
+  color: rgba(255, 255, 255, 0.40);
+  font-family: "GothamPro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 80% */
+  text-transform: capitalize;
+
 }
 .header__tab:hover {
   color: rgba(255, 255, 255, 1);
@@ -359,23 +332,24 @@ body {
   width: 100%;
   border-radius: 12px;
   padding: 16px 32px;
-  color: #FFF;
   font-style: normal;
   font-weight: 700;
-  line-height: 16.667px; /* 92.593% */
-  text-transform: uppercase;
+  line-height: 16.667px;
 }
 .button__transparent {
-  background: #000;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.10);
+  color: #fff;
 }
 .button__transparent:hover {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.10) 100%), #000;
+  background: rgba(255, 255, 255, 0.20);
 }
 .button__style {
-  background: var(--1, linear-gradient(93deg, #AA1327 13.59%, #FF465E 87.82%));
+  background: #BBEC6C;
+  color: #000;
 }
 .button__style:hover {
-  background: linear-gradient(266deg, #AA1327 1.1%, #FF465E 95.62%);
+  opacity: 0.8;
 }
 .mob-menu {
   display: none;
@@ -389,10 +363,10 @@ body {
   background-position: 116% 3%, 8% 7%, right bottom, left 85%, 20% 35%;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   @media (max-width: 1845px) {
-    background-position: 122% 4%, 8% 7%, right bottom, left 85%, 20% 35%;
+    background-position: 116% 3%, 8% 7%, right bottom, left 85%, 20% 35%;
   }
   @media (max-width: 1700px) {
-    background-position: 160% 2%, 8% 7%, right bottom, left 85%, 20% 35%;
+    background-position: 116% 3%, 8% 7%, right bottom, left 85%, 20% 35%;
   }
 }
 .intro {
@@ -404,27 +378,29 @@ body {
   align-items: center;
 }
 .banner__text {
-  max-width: 512px;
-  color: #FFF;
-  font-size: 20px;
+  max-width: 567px;
+  margin-top: 52px;
+
+  color: var(--white, #FFF);
+
+  font-family: "GothamPro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 145.455% */
+}
+.banner__text_span {
+
+  color: var(--3453465, var(--white, #BBEC6C));
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  text-transform: uppercase;
-  margin-left: 52px;
-  margin-top: 52px;
-}
-.banner__text_span {
-  background: var(--Style, linear-gradient(133deg, #B0FF09 24.47%, #05B8F1 109.92%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .banner__logo {
   width: 100%;
 }
 .links {
-  margin-left: 52px;
   margin-top: 32px;
 }
 .girl {
@@ -447,7 +423,7 @@ body {
                        "c d d";
 }
 .girl__pic {
-  max-width: 469px;
+  max-width: 800px;
   width: 100%;
 }
 .girl__predict {
@@ -457,7 +433,7 @@ body {
   background: #000;
 
   color: var(--w, #FFF);
-  font-family: Industry;
+  font-family: Gotham Pro;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -477,7 +453,7 @@ body {
   background: #000;
 
   color: var(--w, #FFF);
-  font-family: Industry;
+  font-family: "GothamPro";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -542,9 +518,10 @@ body {
   height: 36px;
 }
 .tokenomics__text {
-  color: var(--2, #FFF);
+  color: var(--2, var(--white, #FFF));
   font-size: 36px;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
   line-height: 100%; /* 36px */
   text-transform: uppercase;
 }
@@ -553,14 +530,12 @@ body {
 }
 .part {
   border-radius: 12px;
-  border-left: 2px solid var(--Style, #B0FF09);
-  background: var(--342, linear-gradient(92deg, #1A251F 5.53%, #1B1227 97.6%));
-
   display: flex;
-  /* width: 331px; */
   padding: 24px 24px 24px 48px;
   justify-content: space-between;
   margin-bottom: 8px;
+  border-left: 2px solid var(--3453465, #BBEC6C);
+  background: #19161F;
 }
 .part__airdrop {
   width: 30%;
@@ -572,17 +547,25 @@ body {
   width: 45%;
 }
 .part__text {
+  color: var(--w, var(--white, #FFF));
   font-size: 20px;
-  font-style: italic;
-  line-height: 32px; /* 160% */
-  text-transform: uppercase;
-  color: var(--w, #FFF);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: capitalize;
 }
 .part__text_percent {
-  background: var(--Style, linear-gradient(133deg, #B0FF09 24.47%, #05B8F1 109.92%));
+  /* background: var(--Style, linear-gradient(133deg, #B0FF09 24.47%, #05B8F1 109.92%));
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+
+  color: var(--3453465, var(--white, #BBEC6C));
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+  text-transform: capitalize;
 }
 .demo {
   margin: 0 auto;
@@ -612,17 +595,18 @@ body {
   gap: 10px;
   align-self: stretch;
 
-  text-align: center;
-  font-size: 18px;
   max-height: 53px;
   width: 100%;
   border-radius: 12px;
   padding: 16px 32px;
-  color: #FFF;
+  line-height: 16.667px; 
+
+
+  text-align: center;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 16.667px; /* 92.593% */
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .demo__text {
   display: flex;
@@ -636,40 +620,42 @@ body {
 }
 .demo__fill {
   color: var(--2, #FFF);
+
   font-size: 36px;
-  font-style: italic;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 700;
   line-height: 120%; /* 43.2px */
   text-transform: uppercase;
 }
 .demo__fill_span {
-  background: var(--1, linear-gradient(93deg, #AA1327 13.59%, #FF465E 87.82%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--3453465, var(--white, #BBEC6C));
 }
 .taxes {
   margin: 0 auto;
   margin-top: 64px;
   padding-bottom: 157px;
-  max-width: 1468px;
+  max-width: 1100px;
   display: grid;
   gap: 8px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 .taxes__item {
-  border-radius: 12px;
-  background: #121212;
   height: 379px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+
+  background: #0D0A13;
 }
 .title {
   display: flex;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 128px;
   max-width: 1468px;
@@ -679,9 +665,10 @@ body {
   height: 36px;
 }
 .title__text {
-  color: var(--2, #FFF);
+  color: var(--2, var(--white, #FFF));
   font-size: 36px;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
   line-height: 100%; /* 36px */
   text-transform: uppercase;
 }
@@ -698,33 +685,35 @@ body {
 .taxes__title {
   text-align: center;
   margin-bottom: 12px;
+  
+
+  color: var(--3453465, #BBEC6C);
   font-size: 56px;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 56px; /* 100% */
   text-transform: uppercase;
-  background: var(--Style, linear-gradient(133deg, #B0FF09 24.47%, #05B8F1 109.92%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .taxes__subtitle {
-  color: var(--2, #FFF);
+
+  color: var(--2, var(--white, #FFF));
   text-align: center;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 100%; /* 24px */
-  text-transform: uppercase;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 26px */
+  text-transform: capitalize;
 }
 .footer-wrapper {
-  background: #121212;
   height: 188px;
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  background: #0D0A13;
+  backdrop-filter: blur(12px);
 }
 .footer {
   max-width: 1468px;
@@ -831,7 +820,7 @@ body {
   }
 
   .bg-wrapper {
-    background-position: center 23%, 8% 0%, right bottom, left 85%, 20% 50%;
+    background-position: 250% 0%, 8% 0%, right bottom, left 85%, 20% 50%;
   }
 }
 @media (max-width: 1184px) {
@@ -860,6 +849,9 @@ body {
   }
   .tokenomics__title {
     margin-right: 24px;
+  }
+  .bg-wrapper {
+    background-position: 100% 0%, 8% 0%, right bottom, left 85%, 20% 50%;
   }
 }
 @media (max-width: 1036px) {
@@ -891,7 +883,7 @@ body {
     grid-template-columns: 220px;
     grid-template-rows: 56px 56px;
     left: 24px;
-    bottom: 24px;
+    bottom: 54px;
   }
   .demo__text {
     top: 160px;
@@ -926,6 +918,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .bg-wrapper {
+    background-position: -10% 0%, 8% 0%, right bottom, left 85%, 20% 50%;
+  }
+  .taxes__title {
+    font-size: 36px;
   }
 }
 @media (max-width: 659px) {

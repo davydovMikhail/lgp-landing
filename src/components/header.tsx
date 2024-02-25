@@ -33,7 +33,7 @@ const Header = () => {
           
         },
         bmMenu: {
-            background: '#101010',
+            background: '#0D0A13',
           padding: '2.5em 1.5em 0',
           fontSize: '30pxpx',
         },
@@ -72,22 +72,22 @@ const Header = () => {
                   <div className="header__left">
                     <img src={Logo} className="header__logo" />
                     <div className="header__bar">
-                        <a href="#intro" className="header__tab">HOME</a>
-                        <a href="#tokenomics" className="header__tab">TOKENOMICS</a>
-                        <a href="#taxes" className="header__tab">TAXES & FEES</a>
+                        <a href="#intro" className="header__tab">Home</a>
+                        <a href="#tokenomics" className="header__tab">Tokenomics</a>
+                        <a href="#taxes" className="header__tab">Taxes & Fees</a>
                         <a href="https://test.lgp.casino/" target="_blank" className="header__tab">
-                            <div style={{marginRight: "5px"}} >TESTNET</div>
+                            <div style={{marginRight: "5px"}} >Testnet</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
                         <a href="https://gitbook.io/docs/" target="_blank" className="header__tab">
-                            <div style={{marginRight: "5px"}} >WHITEPAPER</div>
+                            <div style={{marginRight: "5px"}} >Whitepaper</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
                     </div>
                   </div>
                   <div className="header__right">
-                    <a style={{marginRight: "8px"}} href="https://test.lgp.casino/" target='_blank' className="button__size button__transparent">TRY TESTNET</a>
-                    <a href="https://app.uniswap.org/#/swap" target='_blank' className="button__size button__style">BUY TOKENS</a>
+                    <a style={{marginRight: "8px"}} href="https://test.lgp.casino/" target='_blank' className="button__size button__transparent">Try Testnet</a>
+                    <a href="https://app.uniswap.org/#/swap" target='_blank' className="button__size button__style">Buy Tokens</a>
                   </div>
                 <div className='mob-menu'>
                     <Menu
@@ -95,13 +95,13 @@ const Header = () => {
                         onOpen={handleIsOpen}
                         onClose={handleIsOpen}
                         styles={styles} right>
-                        <a onClick={closeSideBar} className="menu-item" href="#intro">HOME</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">TOKENOMICS</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#taxes">TAXES & FEES</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">TESTNET</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://gitbook.io/docs/">WHITEPAPER</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">TRY TESTNET</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">BUY TOKENS</a> 
+                        <a onClick={closeSideBar} className="menu-item" href="#intro">Home</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#tokenomics">Tokenomics</a>
+                        <a onClick={closeSideBar} className="menu-item" href="#taxes">Taxes & Fees</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Testnet</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://gitbook.io/docs/">Whitepaper</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Try Testnet</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">Buy Tokens</a> 
                     </Menu>
                 </div>
                 </div>

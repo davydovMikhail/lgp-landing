@@ -2,6 +2,8 @@ import BigLogo from "../img/biglogo.svg";
 import x from "../img/x.svg";
 import tg from "../img/tg.svg";
 import girl from "../img/girl.png";
+import mac from "../img/mac.png";
+
 import wallet from "../img/wallet.svg";
 import smile from "../img/smile.svg";
 import prize from "../img/prize.svg";
@@ -27,7 +29,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="girl">
-                <div className="badge badge__bal">
+                {/* <div className="badge badge__bal">
                     <img className="badge__icon" src={wallet} alt="" />
                     <div className="badge__text">
                         balance: 100.00 <span className="badge__text_span">$LGP</span>
@@ -44,9 +46,9 @@ const Intro = () => {
                     <div className="badge__text">
                         go!
                     </div>
-                </div>
-                <img  src={girl} className="girl__pic" />
-                <div className="girl__trybuy">
+                </div> */}
+                <img  src={mac} className="girl__pic" />
+                {/* <div className="girl__trybuy">
                     <div className="girl__predict">
                         — Predict the winning range of numbers, earn <span className='girl__predict_span'>$LGP</span> and enjoy instant withdrawals.
                     </div>
@@ -59,7 +61,7 @@ const Intro = () => {
                     <a href='#' target="_blank" className="girl__buy">
                         buy tokens
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
         </>
