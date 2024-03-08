@@ -79,7 +79,7 @@ const Header = () => {
                             <div style={{marginRight: "5px"}} >Testnet</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
-                        <a href="https://gitbook.io/docs/" target="_blank" className="header__tab">
+                        <a href="https://lgp.gitbook.io/lucky-gap-casino/" target="_blank" className="header__tab">
                             <div style={{marginRight: "5px"}} >Whitepaper</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
@@ -99,7 +99,7 @@ const Header = () => {
                         <a onClick={closeSideBar} className="menu-item" href="#tokenomics">Tokenomics</a>
                         <a onClick={closeSideBar} className="menu-item" href="#taxes">Taxes & Fees</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Testnet</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://gitbook.io/docs/">Whitepaper</a>
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://lgp.gitbook.io/lucky-gap-casino/">Whitepaper</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Try Testnet</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">Buy Tokens</a> 
                     </Menu>
