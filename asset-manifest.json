@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.25e26e61.css",
-    "main.js": "/static/js/main.53ad76c8.js",
+    "main.css": "/static/css/main.a1400095.css",
+    "main.js": "/static/js/main.6daffb28.js",
     "static/media/looper.png": "/static/media/looper.b6ef6876fdf935cb26e3.png",
-    "static/media/demo.png": "/static/media/demo.d3b9019c3a80553806d7.png",
-    "static/media/demo2.png": "/static/media/demo2.020ccc654f11a21fe3d0.png",
-    "static/media/mac.png": "/static/media/mac.ad21ee8d2701415afcf7.png",
+    "static/media/demo.png": "/static/media/demo.ead7f2318c3bd5e6fabc.png",
+    "static/media/demo2.png": "/static/media/demo2.12d2588ee17eb5910da3.png",
+    "static/media/mac.png": "/static/media/mac.4ad3c2526a754d02a13c.png",
     "static/media/logo.svg": "/static/media/logo.38f010423f77938dd93b5558178660e0.svg",
     "static/media/biglogo.svg": "/static/media/biglogo.70dcaef36630cd907c62c9b75168d0b9.svg",
     "static/media/GothamProLight.ttf": "/static/media/GothamProLight.ac4d82c65f209b7fa7e5.ttf",
@@ -54,11 +54,11 @@
     "static/media/ext.svg": "/static/media/ext.a9df89f6bb66a4f61bf73f4b98e0237b.svg",
     "static/media/miniX.svg": "/static/media/miniX.cf00b9653fd6d25a6204619a852f6780.svg",
     "static/media/x.svg": "/static/media/x.78145738184a1efb0596a9073818ecd8.svg",
-    "main.25e26e61.css.map": "/static/css/main.25e26e61.css.map",
-    "main.53ad76c8.js.map": "/static/js/main.53ad76c8.js.map"
+    "main.a1400095.css.map": "/static/css/main.a1400095.css.map",
+    "main.6daffb28.js.map": "/static/js/main.6daffb28.js.map"
   },
   "entrypoints": [
-    "static/css/main.25e26e61.css",
-    "static/js/main.53ad76c8.js"
+    "static/css/main.a1400095.css",
+    "static/js/main.6daffb28.js"
   ]
 }
