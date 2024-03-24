@@ -356,7 +356,7 @@ body {
 }
 .bg-wrapper {
   display: block;
-  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 102px;
   background-image: url('./img/looper.png'), url('./img/cell1.png'), url('./img/cell2.png'), url('./img/cell3.png'), url('./img/cell4.png');
@@ -390,7 +390,7 @@ body {
   line-height: 32px; /* 145.455% */
 }
 .banner__text_span {
-
+  word-break: break-all;
   color: var(--3453465, var(--white, #BBEC6C));
   font-size: 22px;
   font-style: normal;
@@ -634,10 +634,10 @@ body {
   margin: 0 auto;
   margin-top: 64px;
   padding-bottom: 157px;
-  max-width: 1100px;
+  max-width: 825px;
   display: grid;
   gap: 8px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
 .taxes__item {
@@ -895,8 +895,8 @@ body {
   }
   .taxes {
     margin-top: 48px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
     padding-bottom: 100px;
   }
   .taxes__item {
@@ -951,6 +951,9 @@ body {
     line-height: 24px;
   }
   .banner__text {
+    font-size: 16px;
+  }
+  .banner__text_span {
     font-size: 16px;
   }
   .part__airdrop {

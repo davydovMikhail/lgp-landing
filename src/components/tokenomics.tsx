@@ -19,19 +19,19 @@ const Tokenomics = () => {
             <div className="tokenomics__items" >
               <div className="part part__team">
                 <div className="part__text">
-                  <span className="part__text_percent">6%</span> Team
+                  <span className="part__text_percent">10%</span> Team
                 </div>
                 <img src={people} alt="" />
               </div>
               <div className="part part__bank">
                 <div className="part__text">
-                  <span className="part__text_percent">10%</span> Casino Bank
+                  <span className="part__text_percent">15%</span> Casino Bank
                 </div>
                 <img src={saving} alt="" />
               </div>
               <div className="part">
                 <div className="part__text">
-                  <span className="part__text_percent">84%</span> Liquidity
+                  <span className="part__text_percent">75%</span> Liquidity
                 </div>
                 <img src={paid} alt="" />
               </div>

@@ -87,7 +87,7 @@ const Header = () => {
                   </div>
                   <div className="header__right">
                     <a style={{marginRight: "8px"}} href="https://test.lgp.casino/" target='_blank' className="button__size button__transparent">Try Testnet</a>
-                    <a href="https://app.uniswap.org/#/swap" target='_blank' className="button__size button__style">Buy Tokens</a>
+                    <a href="https://raydium.io/swap/?inputCurrency=sol" target='_blank' className="button__size button__style">Buy Tokens</a>
                   </div>
                 <div className='mob-menu'>
                     <Menu
@@ -101,7 +101,7 @@ const Header = () => {
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Testnet</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://lgp.gitbook.io/lucky-gap-casino/">Whitepaper</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Try Testnet</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://app.uniswap.org/#/swap">Buy Tokens</a> 
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://raydium.io/swap/?inputCurrency=sol">Buy Tokens</a> 
                     </Menu>
                 </div>
                 </div>

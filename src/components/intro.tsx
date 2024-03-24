@@ -15,6 +15,9 @@ const Intro = () => {
                 <div className="banner__text">
                     LuckyGap Casino is a gambling platform that operates on a revenue-share model, creating an ecosystem in which holders become partial owners of the casino and benefit from the generated revenue. The casino is powered by <span className='banner__text_span'>$LGP</span>.
                 </div>
+                {/* <div className="banner__text">
+                    CA: <span className='banner__text_span'></span>
+                </div> */}
                 <div className="links">
                     <a target="_blank" href="https://twitter.com/luckygapcasino" style={{marginRight: "8px"}}>
                         <img src={x} alt="x"/>
