@@ -578,6 +578,7 @@ body {
   background-image: url('./img/demo.png');
   position: relative;
   margin-top: 128px;
+  margin-bottom: 40px;
 }
 .demo__buttons {
   display: grid;

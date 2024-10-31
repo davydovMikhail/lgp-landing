@@ -74,9 +74,9 @@ const Header = () => {
                     <div className="header__bar">
                         <a href="#intro" className="header__tab">Home</a>
                         <a href="#tokenomics" className="header__tab">Tokenomics</a>
-                        <a href="#taxes" className="header__tab">Taxes & Fees</a>
-                        <a href="https://test.lgp.casino/" target="_blank" className="header__tab">
-                            <div style={{marginRight: "5px"}} >Testnet</div>
+                        {/* <a href="#taxes" className="header__tab">Taxes & Fees</a> */}
+                        <a href="https://play.lgp.casino/" target="_blank" className="header__tab">
+                            <div style={{marginRight: "5px"}} >Play</div>
                             <img className="header__icon" src={Ext} alt="ext" />
                         </a>
                         <a href="https://lgp.gitbook.io/lucky-gap-casino/" target="_blank" className="header__tab">
@@ -86,7 +86,7 @@ const Header = () => {
                     </div>
                   </div>
                   <div className="header__right">
-                    <a style={{marginRight: "8px"}} href="https://test.lgp.casino/" target='_blank' className="button__size button__transparent">Try Testnet</a>
+                    <a style={{marginRight: "8px"}} href="https://play.lgp.casino/" target='_blank' className="button__size button__transparent">Play</a>
                     <a href="https://raydium.io/swap/?inputCurrency=sol" target='_blank' className="button__size button__style">Buy Tokens</a>
                   </div>
                 <div className='mob-menu'>
@@ -97,10 +97,10 @@ const Header = () => {
                         styles={styles} right>
                         <a onClick={closeSideBar} className="menu-item" href="#intro">Home</a>
                         <a onClick={closeSideBar} className="menu-item" href="#tokenomics">Tokenomics</a>
-                        <a onClick={closeSideBar} className="menu-item" href="#taxes">Taxes & Fees</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Testnet</a>
+                        {/* <a onClick={closeSideBar} className="menu-item" href="#taxes">Taxes & Fees</a> */}
+                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://play.lgp.casino/">Play</a>
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://lgp.gitbook.io/lucky-gap-casino/">Whitepaper</a>
-                        <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://test.lgp.casino/">Try Testnet</a>
+                        {/* <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://play.lgp.casino/">Try Testnet</a> */}
                         <a onClick={closeSideBar} className="menu-item" target='_blank' href="https://raydium.io/swap/?inputCurrency=sol">Buy Tokens</a> 
                     </Menu>
                 </div>

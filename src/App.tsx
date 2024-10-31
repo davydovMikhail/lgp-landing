@@ -14,8 +14,8 @@ function App() {
           <Intro />
           <Tokenomics />
           <Demo />
-          <Title />
-          <Taxes />
+          {/* <Title />
+          <Taxes /> */}
       </div>
       <Footer />
     </main>
