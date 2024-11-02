@@ -19,12 +19,12 @@ const Intro = () => {
                     CA: <span className='banner__text_span'></span>
                 </div> */}
                 <div className="links">
-                    <a target="_blank" href="https://twitter.com/luckygapcasino" style={{marginRight: "8px"}}>
+                    <a target="_blank" href="https://x.com/lgpcasino" style={{marginRight: "8px"}}>
                         <img src={x} alt="x"/>
                     </a>
-                    <a target="_blank" href="https://t.me/luckygapcasino">
+                    {/* <a target="_blank" href="https://t.me/">
                         <img src={tg} alt="tg"/>
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <div className="girl">
